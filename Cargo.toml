@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "l1x-sdk",
+    "l1x-sdk-macros",
+    "l1x-sys",
+]
+
+[workspace.package]
+version = "0.3.0"
+license = "Apache 2.0"

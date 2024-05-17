@@ -1,0 +1,11 @@
+[package]
+name = "l1x-sys"
+version = "0.2.1"
+edition = "2021"
+authors = ["The L1X Project Developers"]
+description = "Syscall definitions for builtin functions of L1XVM runtime"
+license = "Apache-2.0"
+keywords = ["l1x"]
+homepage = "https://github.com/L1X-Foundation"
+
+[dependencies]

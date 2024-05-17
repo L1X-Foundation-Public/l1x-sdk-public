@@ -1,0 +1,17 @@
+[package]
+name = "l1x-sdk-macros"
+version = "0.2.1"
+edition = "2021"
+authors = ["The L1X Project Developers"]
+description = "Macro library for writing L1X contracts"
+license = "Apache-2.0"
+keywords = ["l1x"]
+homepage = "https://github.com/L1X-Foundation"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+syn = { version = "1", features = ["full", "fold", "extra-traits", "visit"] }
+quote = "1.0"
